@@ -1,0 +1,11 @@
+[Protocol]
+exec=peepcoin2-qt '%u'
+protocol=peepcoin2
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

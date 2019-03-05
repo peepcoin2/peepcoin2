@@ -1,0 +1,26 @@
+# /etc/conf.d/peepcoin2d: config file for /etc/init.d/peepcoin2d
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/peepcoin2/peepcoin2.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/peepcoin2d"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/peepcoin2d.pid"
+
+# Where to write peepcoin2d data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/peepcoin2d"
+
+# User and group to own peepcoin2d process
+#BITCOIND_USER="peepcoin2"
+#BITCOIND_GROUP="peepcoin2"
+
+# Path to peepcoin2d executable
+#BITCOIND_BIN="/usr/bin/peepcoin2d"
+
+# Nice value to run peepcoin2d under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

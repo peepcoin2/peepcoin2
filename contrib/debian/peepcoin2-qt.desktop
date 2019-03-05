@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PeepCoin2
+Comment=PeepCoin2 P2P Cryptocurrency
+Comment[fr]=PeepCoin2, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=PeepCoin2, eşten eşe kriptografik sanal para birimi
+Exec=peepcoin2-qt %u
+Terminal=false
+Type=Application
+Icon=peepcoin2128
+MimeType=x-scheme-handler/peepcoin2;
+Categories=Office;Finance;
